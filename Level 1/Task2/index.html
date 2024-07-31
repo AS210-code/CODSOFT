@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <section>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="toggle-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="home">
+            <h1>Welcome to My Landing Page</h1>    
+        </div>
+        <div id="about">
+            <h2>About Me</h2>
+            <p>An optimistic and career focused student working as the Club Secretary of MindSplatter Club, CMRU. Built many projects and have won in GenAI Hackathon by 100X Engineers. Curious about the emerging trends in the fields of AI and Technology.</p>
+        </div></br>
+        <div id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>A simple C code for Student Record Management System 
+                        using Doubly Linked Lists.</h3>
+                    <p>The Student Record Management System is a software application designed to efficiently manage and organize student information within an educational institution. This system leverages a doubly linked list data structure to store and manipulate student records.</p>
+                </li>
+                <li>
+                    <h3>Employee Record System</h3>
+                    <p>The Employee Record
+                        Management System (ERMS) serves as a
+                        comprehensive solution for businesses to streamline
+                        the storage, retrieval, and manipulation of employee
+                        data.</p>
+                </li>
+                <li>
+                    <h3>E-Commerce website </h3>
+                    <p>The objective of E-Commerce Website project is to develop a GUI based 
+                        automated system, which will cover all the information related to the all products 
+                        which is used in our daily life.</p>
+                </li>
+                <li>
+                    <h3>Banking System</h3>
+                    <p>The Banking System is a Java-based application designed to simulate basic banking functionalities 
+                        such as depositing funds, withdrawing funds, and checking balances. It provides a graphical user 
+                        interface (GUI) built using Swing framework, offering users a convenient way to interact with the 
+                        system.</p>
+                </li>
+                <li>
+                    <h3>Movie Genre Classification</h3>
+                    <p>The objective of this Python project is to preprocess movie data, explore movie attributes, and build a 
+                        simple classification model to classify movies into genres. This project aims to showcase the 
+                        efficacy of machine learning techniques in automating genre classification and uncovering 
+                        underlying patterns within movie data</p>
+                </li>
+            </ul>
+        </div></br>
+    
+        <div id="contact">
+            <h2>Contact Me:</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ankita-saharia-21081a277">LinkedIn</a></li>
+                <li><a href="https://github.com/AS210-code">GitHub</a></li>
+            </ul>
+            
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Landing Page</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript">
+        const toggleBtn =document.getElementsByClassName("toggle-btn")[0]
+        const navmenu =document.getElementsByClassName("nav-menu")[0]
+        toggleBtn.addEventListener("click",()=>{
+            navmenu.classList.toggle("active")
+        })        
+    </script>
+</body>
+</html>
